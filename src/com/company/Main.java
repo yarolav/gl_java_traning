@@ -48,9 +48,9 @@ public class Main {
 
 //        System.out.println('\u00A9');
 
-//        for (int i = 'a'; i <='z' ; i++) {
-//            System.out.println((char) i);
-//        }
+        for (int i = 'a'; i <='z' ; i++) {
+            System.out.println((char) i);
+        }
 
 //        for (int i = 0; i <=10 ; i++) {
 //            System.out.println( i);
@@ -63,7 +63,7 @@ public class Main {
         // Generate the random string
 //        System.out.println(new Random()
 //                .ints('a', 'z')
-//                .limit(1)
+//                .limit(5)
 //                .mapToObj(h -> "" + (char) h)
 //                .collect(Collectors.joining()));
 

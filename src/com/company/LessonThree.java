@@ -59,21 +59,33 @@ public class LessonThree {
 //        int a [] = {1,2,3,4,5};
 //        System.out.println(a[a.length-1]);
 
-        int b [] = {1,2,3,4,5};
-//        for (int i : b) {
-//            System.out.println("i=" +i);
+//       int b [] = {1,2,3,4,5};
+//       for (int i : b) {
+//            System.out.println("i= " +i);
 //        }
-
+//
 //        for (int i = 0; i < b.length ; i++) {
 //            System.out.println(b[i]);
 
 //        Arrays.stream(b).forEach(System.out::println);
 
-/*        int c [] = new int[5];
+//        int c [] = new int[5];
+//
+//        System.out.println(Arrays.toString(c));
 
-        System.out.println(Arrays.toString(c));*/
+//        System.out.println(Arrays.toString(args));
 
-        System.out.println(Arrays.toString(args));
-
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.print("Введите последовательность цыфр: ");
+//        int value = scanner.nextInt();
+//        int mirror = 0;
+//        while (value != 0) {
+//            mirror = mirror * 10 + (value % 10);
+//            value = value / 10;
+//        }
+//        System.out.print("Введите обраную последовательность цыфр: " + mirror);
+        }
     }
-}
+
+
+
