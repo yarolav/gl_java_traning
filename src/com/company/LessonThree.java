@@ -75,15 +75,7 @@ public class LessonThree {
 
 //        System.out.println(Arrays.toString(args));
 
-//        Scanner scanner = new Scanner(System.in);
-//        System.out.print("Введите последовательность цыфр: ");
-//        int value = scanner.nextInt();
-//        int mirror = 0;
-//        while (value != 0) {
-//            mirror = mirror * 10 + (value % 10);
-//            value = value / 10;
-//        }
-//        System.out.print("Введите обраную последовательность цыфр: " + mirror);
+
         }
     }
 
