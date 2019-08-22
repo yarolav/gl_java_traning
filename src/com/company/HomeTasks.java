@@ -47,13 +47,13 @@ public class HomeTasks {
           The Second home task with the first example
            */
 
-        int a [] = new int[5];
-        for (int i  = 0; i < 5 ; i++) {
-            a[i] = cs.nextInt();
-        }
-        for (int i = a.length; i > 0 ; i--) {
-            System.out.println(i);
-        }
+//        int a [] = new int[5];
+//        for (int i  = 0; i < 5 ; i++) {
+//            a[i] = cs.nextInt();
+//        }
+//        for (int i = a.length; i > 0 ; i--) {
+//            System.out.println(i);
+//        }
 
           /*
           The Second home task with the second example
