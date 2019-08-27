@@ -95,14 +95,14 @@ public class Main {
 //            System.out.println("false");
 //        }
 
-        Point point = new Point(10,10);
-        Point point1 = new Point(10,10);
-        System.out.println(point.equals(point1));
-        System.out.println(point.hashCode());
-        System.out.println(point1.hashCode());
-        System.out.println(point.toString());
-        System.out.println(point.getClass() == point.getClass());  // опредение какого типа приходит объект
-        Point clone = (Point) point.clone();
-        System.out.println(clone);  //
+//        Point point = new Point(10,10);
+//        Point point1 = new Point(10,10);
+//        System.out.println(point.equals(point1));
+//        System.out.println(point.hashCode());
+//        System.out.println(point1.hashCode());
+//        System.out.println(point.toString());
+//        System.out.println(point.getClass() == point.getClass());  // опредение какого типа приходит объект
+//        Point clone = (Point) point.clone();
+//        System.out.println(clone);  //
     }
 }
