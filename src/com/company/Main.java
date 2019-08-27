@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 
 public class Main {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, CloneNotSupportedException {
 //       int a; // объявление переменной
 //        a = 10; // инициальзация переменой
 
@@ -48,9 +48,9 @@ public class Main {
 
 //        System.out.println('\u00A9');
 
-        for (int i = 'a'; i <='z' ; i++) {
-            System.out.println((char) i);
-        }
+//        for (int i = 'a'; i <='z' ; i++) {
+//            System.out.println((char) i);
+//        }
 
 //        for (int i = 0; i <=10 ; i++) {
 //            System.out.println( i);
@@ -94,5 +94,15 @@ public class Main {
 //        } else  {
 //            System.out.println("false");
 //        }
+
+        Point point = new Point(10,10);
+        Point point1 = new Point(10,10);
+        System.out.println(point.equals(point1));
+        System.out.println(point.hashCode());
+        System.out.println(point1.hashCode());
+        System.out.println(point.toString());
+        System.out.println(point.getClass() == point.getClass());  // опредение какого типа приходит объект
+        Point clone = (Point) point.clone();
+        System.out.println(clone);  // 
     }
 }
