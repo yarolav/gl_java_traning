@@ -103,6 +103,6 @@ public class Main {
         System.out.println(point.toString());
         System.out.println(point.getClass() == point.getClass());  // опредение какого типа приходит объект
         Point clone = (Point) point.clone();
-        System.out.println(clone);  // 
+        System.out.println(clone);  //
     }
 }
